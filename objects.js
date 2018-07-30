@@ -1,4 +1,4 @@
-var playlist = ['god of war', 'Kronos']
+var playlist = {godofwar: "Kronos", Pathofexil: 'blank'}
 
 function updatePlayList (object, key, value) {
   object[key] = value
@@ -6,3 +6,7 @@ function updatePlayList (object, key, value) {
 }
 
 updatePlayList(playlist, 'GOT', 'Dragon')
+
+function removeFromPlaylist(object, key) {
+  
+}
