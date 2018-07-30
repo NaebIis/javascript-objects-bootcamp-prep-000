@@ -1,6 +1,6 @@
 var playlist = {godofwar: "Kronos", Pathofexil: 'blank'}
 
-function updatePlayList (object, key, value) {
+function updatePlaylist (object, key, value) {
   return object.assign({}, object,{[key]:value})
 }
 
