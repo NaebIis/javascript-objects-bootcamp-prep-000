@@ -5,4 +5,4 @@ function updatePlayList (object, key, value) {
   return object
 }
 
-updatePlayList(platlist, 'GOT', 'Dragon')
+updatePlayList(playlist, 'GOT', 'Dragon')
